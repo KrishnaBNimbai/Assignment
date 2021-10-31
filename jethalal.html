@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .body {
+            height: 100px;
+            width: 200px;
+            background-color: lightgreen;
+            margin: 0 auto;
+            border-radius: 20px;
+
+
+
+        }
+
+        .container {
+            margin: 100px auto;
+            width: 400px;
+
+
+        }
+
+        .neck {
+            position: relative;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color:#FEF3C7;
+            background-color:;
+            margin: 0 auto;
+            top: -10px;
+
+
+        }
+
+        .face {
+            height: 150px;
+            width: 150px;
+            border-radius: 40px;
+            background-color:#FEF3C7;
+            margin: 0 auto;
+            position: relative;
+            bottom: 0px;
+        }
+
+        .eye1, .eye2 {
+            height: 25px;
+            width: 12px;
+            border-radius: 50%;
+            background-color: black;
+            position: relative;
+
+        }
+        .eye1 {
+            bottom: 120px;
+            left: 30px;
+        }
+        .eye2 {
+            bottom: 145px;
+            left: 110px;
+        }
+
+        .hair1,
+        .hair2 {
+            height: 60px;
+            width: 120px;
+            background-color: black;
+            border-radius: 150px 150px 0 0;
+
+
+        }
+
+        .hair1 {
+            transform: rotate(35deg);
+            position: relative;
+            left: 64px;
+            top: -34px;
+
+        }
+        .hair2 {
+            transform: rotate(-35deg);
+            position: relative;
+            top: -91px;
+            left: -35px;
+
+        }
+        .eyeball1, .eyeball2 {
+            height: 15px;
+            width: 8px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            left: 20%;
+            top: 20%;
+            position: relative;
+        }
+        .ear1, .ear2 {
+            width: 30px;
+            height: 30px;
+            background-color:#FEF3C7;
+            background-color: ;
+            border-radius: 50%;
+
+        }
+        .ear1 {
+            position: relative;
+            top: -60px;
+            right: 18px;
+        }
+        .ear2 {
+            position: relative;
+            top: -90px;
+            left: 138px;
+        }
+        .earring1, .earring2{
+            width: 12px;
+            height: 12px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+
+        }
+        .earring1 {
+           top: 10px;
+           left: 5px;
+        }
+        .earring2 {
+           top: 10px;
+           left: 12px;
+        }
+        .mouth {
+            width: 40px;
+            height: 25px;
+            background-color:grey;
+            border-radius: 0 0 50px 50px;
+            position: relative;
+            bottom: 125px; 
+            left: 55px
+            
+        }
+        .moustache {
+            height: 5px;
+            width: 40px;
+            background-color: black;
+            position: relative;
+            bottom: 130px;
+            left: 53px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+        .circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+            background-color: grey;
+            margin: 0 auto;
+            position: relative;
+            bottom: 290px;
+            z-index: -1;
+
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="head">
+            <div class="face">
+                <div class="hair1"></div>
+                <div class="hair2"></div>
+                <div class="ear1">
+                    <div class="earring1"></div>
+                </div>
+                <div class="ear2">
+                    <div class="earring2"></div>
+                </div>
+                <div class="eyebro"></div>
+                <div class="eye1">
+                    <div class="eyeball1"></div>
+                </div>
+                <div class="eye2">
+                    <div class="eyeball2"></div>
+                </div>
+                <div class="moustache"></div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="neck"></div>
+        </div>
+        <div class="circle"></div>
+
+    </div>
+</body>
+
+</html>
