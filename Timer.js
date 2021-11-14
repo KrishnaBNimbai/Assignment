@@ -1,7 +1,7 @@
-const startingMinutes =10;
+const startingMinutes =30;
 let time = startingMinutes * 60;
 
-const countdownEl = document.getElementById('Countdown_Timer');
+const countdownEl = Document.getElementById('Countdown_Timer');
 
 setInterval(updateCountdown_Timer,1000);
 
@@ -13,5 +13,4 @@ function updateCountdown_Timer(){
 
     countdownEl.innerHTML = '${minutes}: ${seconds}';
     time--;
-
 }

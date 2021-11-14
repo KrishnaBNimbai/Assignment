@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Materials+Icons" rel="stylesheet">
+        <title>google</title>
+        <style>
+              .bodywrapper{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height:80vh;
+                  flex-direction: column;
+              }
+              .imgcontainer {
+                 object-fit:contain;
+                 height: 10px;
+                 position: relative;
+                 top: 200px;
+                 left: 619px;
+
+              }
+              .search{
+                  display: flex;
+                  align-items: center;
+                  border: 1px solid lightgray;
+                  padding: 10px 20px;
+                  border-radius: 999px;
+                  height: 30px;
+                  width: 75vw;
+                  max-width:560px;
+                  margin-top: 30px;
+              }
+              .search input {
+                  border: none;
+                  outline: none;
+                  padding: 10px 20px;
+                  flex: 1;
+              }
+              .buttoncontainer{
+                  display: flex;
+                  justify-content: center;
+                  margin-top: 20px;
+              }
+              .buttoncontainer button{
+                  margin: 10px;
+                  padding: 10px 20px;
+                  border: none;
+                  cursor: pointer;
+                  background-color: #f8f9fa;
+                  outline: none;
+
+              }
+              .button:hover {
+                  border: 1px solid lightgray;
+              }
+        </style>
+    </head>
+    <body>
+        <div class="bodyWrapper">
+            <div class="imgContainer">
+                <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+                
+            </div>
+            <div class="mainsearchclass">
+            </div>
+            <div class="search">
+                <span class="material-icons">
+                    search
+                </span>
+                <input type="text">
+                <span class="material-icons">
+                    mic
+                </span>
+            </div>
+
+            <div class="buttonContainer"></div>
+            <button>google search</button>
+            <button>I'm feeling lucky</button>
+
+        </div>
+
+    </body>
+</html>
