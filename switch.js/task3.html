@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px;
+            margin: 100px auto;
+            padding: 30px;
+            box-shadow: 0 0 10px black;
+            text-align: center;
+
+        }
+    </style>
+    <script>
+        function wishMessage(wish){
+           var h1ref= document.getElementById('i1')
+            switch (wish) {
+                case "GM":
+                    h1ref.innerText = "Good Morining, Krrish"
+                    h1ref.style.color= "blue";
+                    break;
+                case "GA": 
+                    h1ref.innerText = "Good Afternoon, Krrish"
+                    h1ref.style.color= "brown";
+                    break;
+                case "GE":
+                    h1ref.innerText = "Good Evening, Krrish"
+                    h1ref.style.color= "grey";
+                    break;
+                case "GN":
+                    h1ref.innerText = "Good Night, Krrish"
+                    h1ref.style.color= "purple";
+                    break;
+
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2 id="i1">Namaste Krrish</h2>
+
+        <button onclick="wishMessage('GM')">Good Morning</button>
+        <button onclick="wishMessage('GA')">Good afternoon</button>
+        <button onclick="wishMessage('GE')">Good Evening</button>
+        <button onclick="wishMessage('GN')">Good Night</button>
+    </div>
+    
+</body>
+</html>
